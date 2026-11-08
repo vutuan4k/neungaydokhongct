@@ -53,7 +53,7 @@ if (ua.includes("Locket")) {
                 {
                     title: "Locket Bạn đã Kích hoạt Gold💗",
                     body: "Vũ Thanhks You 💛",
-                    imageURL: "https://raw.githubusercontent.com/vutuan4k/loccket/refs/heads/main/traitym.webp"
+                    imageURL: "https://raw.githubusercontent.com/vutuan4k/neungaydokhongct/refs/heads/main/traitym.webp"
                 }
             ],
             primary_button_title: "Xong Rồi Nè",
