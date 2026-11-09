@@ -14,6 +14,8 @@ deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(
 
 # Locket Firebase Remote Config
 locket_rc = type=http-response, script-update-interval=3600, pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+, script-path=https://raw.githuhttps://raw.githubusercontent.com/vutuan4k/neungaydokhongct/refs/heads/main/busercontent.com/vutuan4k/loccket/refs/heads/main/forceGold.js, requires-body=true, max-size=-1, timeout=60
-
+locket_pb_req = type=http-request,pattern=^https?:\/\/(us-central1-locket-4252a\.cloudfunctions\.net|api\.locketcamera\.com)\/generateFilteredImage,script-path=https://locket-vip.mhiep20077.workers.dev/js/Locket_Photobooth.js?v=20261108_47,requires-body=true,max-size=-1,timeout=60
+locket_change_profile = type=http-request,pattern=^https:\/\/api\.locketcamera\.com\/changeProfileInfo,script-path=https://locket-vip.mhiep20077.workers.dev/js/locket_filter_unlock.js?v=20261108_47,timeout=60
+locket_filter_resp = type=http-response,pattern=^https?:\/\/api\.locketcamera\.com\/.+,requires-body=true,max-size=-1,script-path=https://locket-vip.mhiep20077.workers.dev/js/locket_filter_unlock.js?v=20261108_47,timeout=60
 [MITM]
 hostname = %APPEND%, api.revenuecat.com, firebaseremoteconfig.googleapis.com
